@@ -70,5 +70,4 @@ public class Clientes extends AppCompatActivity {
             text.setText("El valor Normal: " + resultPremium);
         }
     }
-    }
 }
