@@ -59,5 +59,16 @@ public class Clientes extends AppCompatActivity {
         {
             text.setText("El valor Normal: " + resultPremium);
         }
+
+
+        if(cliente.equals("Sebastian") && plan.equals("Normal"))
+        {
+            text.setText("El valor Normal: " + resultNormal);
+        }
+        if(cliente.equals("Sebastian") && plan.equals("Premium"))
+        {
+            text.setText("El valor Normal: " + resultPremium);
+        }
+    }
     }
 }
